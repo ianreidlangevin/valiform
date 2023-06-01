@@ -1,6 +1,6 @@
 {
   "name": "valiform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Valiform is a lightweight, data-attribute based form validation library by Ian Reid Langevin. Valiform is library-agnostic, easy to use, and highly customizable.",
   "main": "index.js",
   "scripts": {

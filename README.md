@@ -17,7 +17,7 @@ You have the ability to customize the behavior of Valiform by passing an options
 ```javascript
 new FormValidation(".my-form", {
    formEndpoint: "https://endpoint-url.com", // Optional: Use this to send form data to a specific endpoint on submit. If left blank, the default form submission method will be used.
-   emptyValues: [] // Optional: This array holds values that the validator will consider as empty. This can be useful for fields such as select menus.
+   emptyValues: [] // Optional: This array holds values that the validator will consider as empty. This can be useful for fields such as select.
 }).init()
 ```
 
@@ -78,7 +78,7 @@ To enable validation on a field, add the `data-valiform` attribute to it. Valida
 Let's break down the data attributes:
 
 - `data-valiform`: Marks this field for validation.
-- `data-valiform-regex="name"`: Specifies the validator type (matches a type in your validators). If you just want to validate the required attribute, remove it.
+- `data-valiform-regex="name"`: Specifies the validator type (matches a type in the validators). If you just want to validate the required attribute, remove it.
 - `data-valiform-msg-failed="The value is invalid"`: Specifies the error message to be displayed when validation fails.
 - `data-valiform-msg-required="This field is required"`: Specifies the error message to be displayed when the field is empty.
 
