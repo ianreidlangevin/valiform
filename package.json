@@ -1,0 +1,20 @@
+{
+  "name": "valiform",
+  "version": "1.0.0",
+  "description": "Valiform is a form validation package that works independently of libraries. Using data-attributes, it allows custom validators per form or defaults. Validators are extendable regex patterns. Validate on change, blur and form submit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "form",
+    "validation",
+    "validation",
+    "valiform",
+    "form"
+  ],
+  "repository":"https://github.com/ianreidlangevin/valiform",
+  "author": "Ian Reid Langevin",
+  "homepage": "https://github.com/ianreidlangevin/valiform/README.md",
+  "license": "ISC"
+}
