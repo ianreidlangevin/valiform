@@ -16,7 +16,11 @@ npm install valiform
 
 ## Getting Started
 
-Begin by creating a new instance for your form. You can select your form using a CSS selector as shown below:
+Begin by importanting Valiform into your project and by creating a new instance for your form. You can select your form using a CSS selector as shown below:
+
+```javascript
+import { FormValidation } from "valiform"
+```
 
 ```javascript
 new FormValidation(".my-form").init()
