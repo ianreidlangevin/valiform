@@ -2,6 +2,18 @@
 
 Welcome to Valiform, a lightweight, data-attribute based form validation library. Valiform is library-agnostic, easy to use, and highly customizable.
 
+## Installation
+
+```javascript
+yarn add valiform
+```
+
+or
+
+```javascript
+npm install valiform
+```
+
 ## Getting Started
 
 Begin by creating a new instance for your form. You can select your form using a CSS selector as shown below:
